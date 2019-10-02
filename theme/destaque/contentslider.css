@@ -1,0 +1,57 @@
+.contentslide {
+	width: 540px;
+	height: 200px;
+	border:1px solid #000;
+	} 
+
+.contentslide .opacitylayer { /*Do not edit this rule unless you're familiar with CSS opacity behavior*/
+	width: 540px;
+	height: 200px;
+	filter:progid:DXImageTransform.Microsoft.alpha(opacity=100);
+	-moz-opacity: 1;
+	opacity: 1;
+}
+
+.contentslide .contentdiv {
+	display: none;
+	text-align:center;
+	}
+
+.contentdiv h3 {
+	position:relative;
+	top:-70px;
+	height:50px;
+	background:#000;
+	-moz-opacity:0.7;
+	-khtml-opacity: 0.7;
+	filter:alpha(opacity=70);
+	opacity: 0.8;
+	padding:10px 0 0 10px;
+	text-align:left; }
+.contentdiv h3 a { color:#FFF; }
+
+#paginate-slider1 { margin-bottom:10px; }
+
+.pagination {
+	width: 542px; /*Width of pagination DIV. To equal that of Content Slider's width, take into account the later's left/right paddings!*/
+	height:20px;
+	text-align: right;
+	padding: 2px 0;
+	background:url(bg-paginacao.jpg) no-repeat top right;
+	}
+
+* html .pagination { /*Simplified box model hack to get IE5 to display width equal to that of Content Slider's*/
+	width: 540px; /*IE5 width*/
+	w\idth: 416px; /*IE6 width */
+	}
+
+.pagination a {
+	padding: 1px 5px;
+	text-decoration: none; 
+	color: #FFF;
+	}
+
+.pagination a:hover, .pagination a.selected {
+	color: #FFF;
+	background-color: #F90;
+	}
