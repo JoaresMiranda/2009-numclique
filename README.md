@@ -8,8 +8,6 @@ Technology-themed blog and digital lifestyle
 
 ## Technology
 * Wordpress
-* Responsive layout
 
 ## Screenshot
-
-![Screenshot blog](https://github.com/JoaresMiranda/2009-numclique/blob/master/screenshot.png)
+![Screenshot blog](./screenshot.png)
